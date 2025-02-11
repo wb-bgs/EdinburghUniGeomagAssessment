@@ -6,7 +6,8 @@ This code helps you answer the assignment questions which are distributed separa
 
 ### Using Noteable:
 
-- First, login and launch a "GeoScience Notebook" at <https://noteable.edina.ac.uk/login>
+- First, navigate to the Noteable link within the Geomagnetism course area on Learn and login to Noteable
+- Choose a "GeoScience Notebook" from the drop down menu, and click "Start"
 - Then, select a "Terminal" session from the Noteable launch tab
 - Pull in the code repo:
   ```
