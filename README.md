@@ -7,7 +7,12 @@ This code helps you answer the assignment questions which are distributed separa
 ### Using Noteable:
 
 - First, login and launch a "GeoScience Notebook" at <https://noteable.edina.ac.uk/login>
-- Then, click [this link to pull in the code and open the notebook](https://noteable.edina.ac.uk/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fwb-bgs%2FEdinburghUniGeomagAssessment&urlpath=tree%2FEdinburghUniGeomagAssessment%2Fnotebooks%2FGeomagnetismAssessment.ipynb&branch=main)
+- Then, select a "Terminal" session from the Noteable launch tab
+- Pull in the code repo:
+  ```
+  git clone https://github.com/wb-bgs/EdinburghUniGeomagAssessment.git .
+  ```
+- Navigate on the left side bar in the Noteable window to the notebook file "EdinburghUniGeomagAssessment/notebooks/GeomagnetismAssessment.ipynb"
 - If you need to reset the code completely and/or pull in updates (*wiping your changes*), open a terminal and do:
   ```
   cd ~/EdinburghUniGeomagAssessment
@@ -21,6 +26,6 @@ This code helps you answer the assignment questions which are distributed separa
 - Ensure you have `matplotlib` and `pandas` installed
 - Pull in the code repo:
   ```
-  git clone https://github.com/wb-bgs/EdinburghUniGeomagAssessment.git
+  git clone https://github.com/wb-bgs/EdinburghUniGeomagAssessment.git .
   ```
 - Navigate to `EdinburghUniGeomagAssessment/notebooks/GeomagnetismAssessment.ipynb`
